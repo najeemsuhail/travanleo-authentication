@@ -7,7 +7,7 @@ import java.security.Principal;
 
 @RestController
 public class AuthenticationController {
-    @RequestMapping("/")
+    @RequestMapping("/login")
     public String hello(){
         return  "hello";
     }
